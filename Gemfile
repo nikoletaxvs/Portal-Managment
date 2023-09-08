@@ -30,6 +30,14 @@ gem 'devise'
 
 gem 'bootstrap_form'
 
+gem 'rspec-rails', '~> 3.6'
+gem 'factory_girl_rails'
+gem 'rails-controller-testing'
+gem 'headless'
+gem 'capybara'
+gem 'poltergeist'
+gem 'database_cleaner'
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
