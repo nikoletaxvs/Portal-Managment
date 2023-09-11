@@ -28,9 +28,11 @@ gem 'jquery-rails'
 
 gem 'devise'
 
+gem 'rexml', '~> 3.2', '>= 3.2.6'
+
 gem 'bootstrap_form'
 
-
+gem 'phantomjs', :require => 'phantomjs/poltergeist'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
