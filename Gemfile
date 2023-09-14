@@ -32,7 +32,11 @@ gem 'rexml', '~> 3.2', '>= 3.2.6'
 
 gem 'bootstrap_form'
 
-gem 'phantomjs', :require => 'phantomjs/poltergeist'
+gem 'poltergeist', '~> 1.18', '>= 1.18.1'
+
+gem 'phantomjs'
+
+gem 'pg', '~> 1.3', '>= 1.3.4'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
@@ -86,6 +90,6 @@ group :test do
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
   gem 'headless'
-  gem 'poltergeist'
+  #gem 'poltergeist'
   gem 'database_cleaner'
 end
