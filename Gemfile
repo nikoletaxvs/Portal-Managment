@@ -8,6 +8,7 @@ gem "rails", "~> 7.0.7", ">= 7.0.7.2"
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
+gem 'sassc', '~> 2.1.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -30,13 +31,19 @@ gem 'devise'
 
 gem 'rexml', '~> 3.2', '>= 3.2.6'
 
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+
 gem 'bootstrap_form'
 
 gem 'poltergeist', '~> 1.18', '>= 1.18.1'
 
 gem 'phantomjs'
 
+gem 'gon', '~> 6.1'
+
 gem 'pg', '~> 1.3', '>= 1.3.4'
+
+gem 'faker'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
@@ -86,10 +93,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
-  gem 'rspec-rails', '~> 3.6'
+  gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
   gem 'headless'
-  #gem 'poltergeist'
   gem 'database_cleaner'
 end
